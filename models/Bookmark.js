@@ -7,4 +7,4 @@ const bookmarkSchema = new Schema({
 
 // create the model itself
 const Bookmark = model ('Bookmark', bookmarkSchema)
-model.exports = Bookmark;
+module.exports = Bookmark;
